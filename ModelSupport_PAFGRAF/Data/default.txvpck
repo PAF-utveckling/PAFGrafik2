@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="c70dsmfmkxe0iglfj_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TDataForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,255,565" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DBPattab" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DBAdvGDIPPicture1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.PafConnection" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.InfoBar" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.ALableleft" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.ALableRight" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.FDQuery" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DataSource1" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.Reset()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.Update()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.FormActivate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.FormCreate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.GetPsw2(System.string)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.ReadFromIniFile()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.WriteToInifile()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.UpdateDayGraphArray()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Data.TDataForm.UpdateDVTGraphArray()" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.ParamString" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DatabasName" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.ServerName" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.Provider" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.user" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.password" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.Changed" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DatabaseOK" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.AllOk" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.Datum" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.Count" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.AntalTider" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.Remisser" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DayGrafArray" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDataForm.DVTGrafArray" />
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:Data.TDataForm.DayGrafArray">
+        <property name="sourceAnchor" value="265,151" />
+        <property name="targetAnchor" value="460,151" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:Data.TDataForm.DVTGrafArray">
+        <property name="sourceAnchor" value="265,366" />
+        <property name="targetAnchor" value="420,366" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TPafGraf">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="460,80,115,143" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TPafGraf.Timme" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TPafGraf.Remsum" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TPafGraf.UsSum" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TPafGraf.SignSum" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.@unitclass.DataForm" />
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:Data.@unitclass.DataForm" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TDVTGraf">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="420,280,149,173" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.RegTid" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.UndSlutTid" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.Ledtid" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.LedDagar" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.LedTimmar" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Data.TDVTGraf.LedMinuter" />
+    </reference>
+  </view>
+</nodeSet>

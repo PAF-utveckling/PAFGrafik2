@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="qmns4n53nweva4cme_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Settings.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.@unitclass.FSettings" />
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:Settings.@unitclass.FSettings" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:Settings.TFSettings">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,240,385" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.PagerSettings" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.AdvOfficePager11" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.AdvOfficePager12" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.AdvOfficePager13" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.PafConnection" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.FDQuery1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.DataSource1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.CheckEditLink1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.clProdgrupp" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.AdvSmoothButton1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.FDQuery2" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.DataSource2" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.Splitter1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.clRemGrupp" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.DBGridRemGrupp" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:Settings.TFSettings.DBGridProdGrupp" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Settings.TFSettings.FormShow(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Settings.TFSettings.AdvSmoothButton1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Settings.TFSettings.WriteToRegistry()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:Settings.TFSettings.ReadFromRegistry()" />
+    </reference>
+  </view>
+</nodeSet>

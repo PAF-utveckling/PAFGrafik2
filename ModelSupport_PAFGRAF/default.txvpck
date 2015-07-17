@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="3zmwga5j7ojfas37l_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::k2u3o4g6ruetxyuwp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,113,134" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:PAFGRAF.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::qmns4n53nweva4cme_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="142,1,100,151" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Settings.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Settings.TFSettings" />
+    </reference>
+    <reference referencedUin="design:view:::c70dsmfmkxe0iglfj_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="123,163,100,181" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TDataForm" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TPafGraf" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:Data.TDVTGraf" />
+    </reference>
+    <reference referencedUin="design:view:::la24ifxw2ze3z4nfj_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="14,163,107,151" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:MainNew.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:MainNew.TMainform" />
+    </reference>
+    <reference referencedUin="design:view:::m1bjtifylzefmu8yn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="280,1,126,151" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:DatumSelect.TDatumForm" />
+      <reference referencedUin="delphi:e_class:src:PAFGRAF:DatumSelect.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

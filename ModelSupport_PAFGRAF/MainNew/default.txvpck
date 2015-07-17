@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="la24ifxw2ze3z4nfj_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$description" value="Programets startform" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:MainNew.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.@unitclass.Mainform" />
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:MainNew.@unitclass.Mainform" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:MainNew.TMainform">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,258,475" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvOfficePager1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvOfficePager11" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvOfficeStatusBar1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvOfficePager12" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvOfficePager13" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.FDGUIxWaitCursor1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvPopupMenu1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.Vljdata1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.Sparasombild1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.Visatableert1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.Timer1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.DebugStandarddatum1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.AdvGDIPChartView1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.ChartDVT" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.ChartDay" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.N1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:MainNew.TMainform.Instllningar1" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.Timer1Timer(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.FormActivate(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.FormResize(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.Vljdata1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.Visatableert1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.DebugStandarddatum1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.Instllningar1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.UpdateDay()" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:MainNew.TMainform.UpdateDVT()" />
+    </reference>
+  </view>
+</nodeSet>

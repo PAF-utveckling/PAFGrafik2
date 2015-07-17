@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="m1bjtifylzefmu8yn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:DatumSelect.TDatumForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,219,190" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:DatumSelect.TDatumForm.DatePicker" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:DatumSelect.TDatumForm.AeroButton1" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:DatumSelect.TDatumForm.AeroButton2" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:DatumSelect.TDatumForm.AeroButton1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:DatumSelect.TDatumForm.AeroButton2Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:PAFGRAF:DatumSelect.TDatumForm.FormShow(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:DatumSelect.TDatumForm.TempDatum" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:PAFGRAF:DatumSelect.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:PAFGRAF:DatumSelect.@unitclass.DatumForm" />
+      <reference referencedUin="delphi:l_ast:src:PAFGRAF:DatumSelect.@unitclass.DatumForm" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{30CE3CD2-B9BA-4D39-82F0-CEA93BF7C3B5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PAFGRAF.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PAFGRAF">
+        <MSBuild Projects="PAFGRAF.dproj"/>
+    </Target>
+    <Target Name="PAFGRAF:Clean">
+        <MSBuild Projects="PAFGRAF.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PAFGRAF:Make">
+        <MSBuild Projects="PAFGRAF.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PAFGRAF"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PAFGRAF:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PAFGRAF:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
