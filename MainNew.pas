@@ -1,5 +1,5 @@
 unit MainNew;
-{ $ define debug}
+{$define debug}
 interface
 
 uses

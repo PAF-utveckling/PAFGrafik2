@@ -989,12 +989,13 @@ object Mainform: TMainform
           Footer.Font.Height = -11
           Footer.Font.Name = 'Tahoma'
           Footer.Font.Style = []
-          Version = '2.2.0.1'
+          Version = '2.3.0.0'
           ShowCurrentDate = False
           TabOrder = 0
           Visible = False
           OnChange = CalendarChange
           Align = alCustom
+          TMSStyle = 0
         end
       end
       object AdvOfficeStatusBar1: TAdvOfficeStatusBar
@@ -1103,8 +1104,7 @@ object Mainform: TMainform
           end>
         ShowSplitter = True
         SimplePanel = False
-        Version = '1.5.3.2'
-        ExplicitWidth = 1191
+        Version = '1.6.0.1'
       end
     end
     object AdvOfficePager12: TAdvOfficePage
@@ -2090,7 +2090,7 @@ object Mainform: TMainform
     Top = 96
   end
   object AdvPopupMenu1: TAdvPopupMenu
-    Version = '2.5.7.0'
+    Version = '2.6.0.0'
     Left = 808
     Top = 80
     object Vljdata1: TMenuItem

@@ -107,6 +107,7 @@
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <UsePackages>false</UsePackages>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <DCC_MapFile>3</DCC_MapFile>
