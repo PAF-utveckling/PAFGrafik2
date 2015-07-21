@@ -767,8 +767,6 @@ object Mainform: TMainform
         YAxisZoomSensitivity = 1.000000000000000000
         ParentShowHint = False
         DoubleBuffered = True
-        ExplicitLeft = 3
-        ExplicitTop = 3
         object Calendar: TAdvSmoothCalendar
           Left = 3
           Top = 3
@@ -2086,8 +2084,8 @@ object Mainform: TMainform
   end
   object FDGUIxWaitCursor1: TFDGUIxWaitCursor
     Provider = 'Forms'
-    Left = 626
-    Top = 96
+    Left = 682
+    Top = 72
   end
   object AdvPopupMenu1: TAdvPopupMenu
     Version = '2.6.0.0'

@@ -107,13 +107,14 @@
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <VerInfo_Build>1</VerInfo_Build>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <UsePackages>false</UsePackages>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <DCC_MapFile>3</DCC_MapFile>
         <VerInfo_Debug>true</VerInfo_Debug>
         <Manifest_File>None</Manifest_File>
-        <VerInfo_Keys>CompanyName=Hb Storckholmen;FileDescription=;FileVersion=0.2.0.0;InternalName=;LegalCopyright=Hb Storckholmen 2015;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=Hb Storckholmen;FileDescription=;FileVersion=0.2.0.1;InternalName=;LegalCopyright=Hb Storckholmen 2015;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_MinorVer>2</VerInfo_MinorVer>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1053</VerInfo_Locale>
